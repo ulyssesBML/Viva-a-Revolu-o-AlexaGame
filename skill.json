@@ -1,0 +1,73 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Desafie outros usuários e defenda seus ideais nesse incrível jogo multiplayer.",
+          "examplePhrases": [
+            "Alexa, jogar viva a revolução"
+          ],
+          "keywords": [
+            "jogo",
+            "partido",
+            "esquerda",
+            "direita",
+            "coxinha",
+            "mortadela",
+            "comunismo",
+            "pedra",
+            "papel",
+            "tesoura",
+            "revolução",
+            "contemporâneo",
+            "politica",
+            "multiplayer",
+            "online",
+            "guerra",
+            "noticias",
+            "revolução",
+            "bolsonaro",
+            "lula",
+            "partido",
+            "governo",
+            "diversão",
+            "poder."
+          ],
+          "name": "Viva a Revolução",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "description": "O dialogo entre os lados dos coxinhas e dos mortadelas se mostrou inefetivo até hoje, só há um jeito de resolver esse impasse para o futuro da nação, o bom e velho pedra, papel e tesoura.\n\nEsse jogo tem regras claras conhecidas por todos, e o perdedor será obrigado a ouvir a frase de vitória do oponente, e mais, quanto mais vitorias você tem, mais progride na história do jogo.\n\nAliste-se agora no seu time, e venha defender seu ideal para o futuro da nação.",
+          "updatesDescription": "Mecânica básica do jogo.",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "This game is to Portuguese speakers so all listed intents are in Portuguese.\nHere go a list of intents that this game allow:\n\n\"Meu apelido é fulano\" - to make a nickname for the game.\n\"Minha frase de vitória é eba ganhei\" - to make a victory phrase\n\"coxinha\" - To go to \"coxinha\" team\n\"mortadela\" - to go to \"mortadela team\"\n\"pedra\" - to play rock in rock paper and scissors\n\"papel\" - to play paper in rock paper and scissors\n\"tesoura\" - to play scissors in rock paper and scissors\n\"historia\" - to check where the player is in the game story",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "BR",
+        "PT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:054307382014:function:921b98a8-3ca4-484b-826e-ef0f61586bc1:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {
+          "privacyPolicyUrl": ""
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "viva a revolução",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Me explica esse jogo",
+            "não entendi",
+            "me ajuda",
+            "apoio",
+            "me ampara",
+            "ajuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "ir embora",
+            "acabar jogo",
+            "sair "
+          ]
+        },
+        {
+          "name": "StartGame",
+          "slots": [],
+          "samples": [
+            "Iniciar jogo",
+            "Jogar",
+            "Começar",
+            "Iniciar"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "VictoryPhrase",
+          "slots": [
+            {
+              "name": "frase",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "mudar frase para {frase}",
+            "mudar frase de vitoria para {frase}",
+            "Minha frase de vitoria é {frase}",
+            "Minha frase é {frase}"
+          ]
+        },
+        {
+          "name": "CreateName",
+          "slots": [
+            {
+              "name": "apelido",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "nome é {apelido}",
+            "apelido é {apelido}",
+            "mudar apelido para {apelido}",
+            "mudar meu apelido para {apelido}",
+            "Meu apelido é {apelido}",
+            "Meu nome é {apelido}"
+          ]
+        },
+        {
+          "name": "Coxinha",
+          "slots": [],
+          "samples": [
+            "direita",
+            "coxinha",
+            "Direita Liberal"
+          ]
+        },
+        {
+          "name": "Mortadela",
+          "slots": [],
+          "samples": [
+            "esquerda",
+            "comunismo",
+            "mortadela"
+          ]
+        },
+        {
+          "name": "Pedra",
+          "slots": [],
+          "samples": [
+            "pedra"
+          ]
+        },
+        {
+          "name": "Papel",
+          "slots": [],
+          "samples": [
+            "papel"
+          ]
+        },
+        {
+          "name": "Tesoura",
+          "slots": [],
+          "samples": [
+            "tesoura"
+          ]
+        },
+        {
+          "name": "Attack",
+          "slots": [],
+          "samples": [
+            "bater",
+            "atacar"
+          ]
+        },
+        {
+          "name": "Story",
+          "slots": [],
+          "samples": [
+            "estoria",
+            "historia"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "11"
+}
